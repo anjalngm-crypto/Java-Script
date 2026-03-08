@@ -1,0 +1,35 @@
+let score = "16AUG"
+
+console.log(typeof score);
+console.log(typeof(score));
+
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber);
+console.log(valueInNumber);//o/p NaN -> Not a number
+
+// "16" => 16
+// "16AUG" => NAN
+// true => 1
+// undefined => NAN
+// null => 0
+
+let isLoggedIn = 1
+
+console.log( typeof isLoggedIn)
+
+let login = Boolean(isLoggedIn)
+
+console.log(login);
+
+//undefined => false
+//null => false
+//"" =>  false
+// 0 => false
+// 1,2,3 => true
+// "Anjal" => true
+
+let sum = 16
+
+let stringsum = String(sum);
+console.log(stringsum);
+console.log(typeof stringsum);
