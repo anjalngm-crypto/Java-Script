@@ -1,11 +1,11 @@
 let score = "16AUG"
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);//string
+// console.log(typeof(score));//string
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber);//o/p NaN -> Not a number
+// console.log(typeof valueInNumber);//number
+// console.log(valueInNumber);//o/p NaN -> Not a number
 
 // "16" => 16
 // "16AUG" => NAN
@@ -15,11 +15,11 @@ console.log(valueInNumber);//o/p NaN -> Not a number
 
 let isLoggedIn = 1
 
-console.log( typeof isLoggedIn)
+// console.log( typeof isLoggedIn)//number
 
 let login = Boolean(isLoggedIn)
 
-console.log(login);
+// console.log(login);//true
 
 //undefined => false
 //null => false
@@ -31,5 +31,52 @@ console.log(login);
 let sum = 16
 
 let stringsum = String(sum);
-console.log(stringsum);
-console.log(typeof stringsum);
+// console.log(stringsum);//16
+// console.log(typeof stringsum);//string
+
+// **************  Operations  **************
+
+let value = 5
+let negValue = -value
+// console.log(value)//5
+// console.log(negValue)//-5
+
+// console.log("2"+"2")//22
+// console.log(2+2)//4
+// console.log(2-2)//0
+// console.log(2*2)//4
+// console.log(2/2)//1
+// console.log(2**3)//8
+// console.log(2%2)//0
+
+let str1 = "Hello"
+let str2 = " Anjal"
+// console.log(str3) cannot access before initialization
+// console.log(str1+str2)//Hello Anjal
+let str3 = str1+str2
+// console.log(str3)//Hello Anjal
+
+// console.log("4"+"4"+2+2)//4422
+// console.log(4+4+"2"+"2")//822
+// console.log(3 + 4 * 5 % 3)//5 
+
+// console.log(true)//true
+// console.log(+true)//1
+// // console.log(true++)invalid expression
+// console.log(+"")//0
+// console.log("false"+ true)//falsetrue
+// console.log("false"+ "true")//falsetrue
+// console.log(false + true)//1
+
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2+2
+
+let x = 3
+let y = x++
+console.log(`x:${x},y:${y}`)
+
+let a = 3
+let b = ++a
+console.log(`x:${a},y:${b}`)
